@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Berkshire Swash';
+    color: white;
+}
+.bg{
+    margin: 0;
+    height: 600px;
+    background-image: url(cofee.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    box-shadow: 0 3px 0 #591902;
+}
+.cafe{
+    position: relative;
+    top: 75%;
+    padding: 20px;
+    margin: 0;
+    background-color: #BF571B90;
+    height: 45px;
+    width: 500px;
+}
+main{
+    color: black;
+    margin-top: 3%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+h1{
+    text-align: center;
+    margin: 0;
+}
+h2{
+    display: inline;
+    margin: 0;
+}
+img{
+    border-radius: 5px;
+    width: 20%;
+    margin-top: 2%;
+}
+hr{
+    margin: 0;
+    width: 30%;
+    height: 1px;
+    background-color: #591902;
+    color: #591902;
+}
+p{
+    font-family: 'Dancing Script';
+}
+.texto{
+    display: block;
+    float: right;
+    width: 79%;
+    margin-top: 2%;
+}
+table{
+    font-family: 'Dancing Script';
+}
+.titulo{
+    background-color: #732C02;
+    color: white;
+    padding: 10px;
+}
+td, th{
+    padding: 10px;
+    background-color: #F29D35;
+}
+.copyright{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+footer{
+    margin: 0.5%;
+}
+.linhameio{
+    color: white;
+    background-color: white;
+    border: none;
+}
